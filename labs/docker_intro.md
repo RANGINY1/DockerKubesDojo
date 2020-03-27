@@ -128,6 +128,12 @@ docker run [OPTIONS] IMAGE [COMMAND] [ARG...]
 
 ```
 
+Using --mount:
+```
+docker run --mount type=bind,source=c:\dev\dojo,target=/usr/share/nginx/html -p 8080:80 nginx
+
+```
+
 
 
 
